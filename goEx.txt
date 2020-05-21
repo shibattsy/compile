@@ -1,0 +1,20 @@
+package main
+import "fmt"
+
+
+func main() {
+first :="This is third string"
+ 
+ fmt.Println(first)
+ c := 3
+ for i := 0; i < c; i++ { 
+   fmt.Print(i, " ")
+ } 
+a := 5
+a--
+a=5/10
+a=4*9
+ if a > 3 {
+   a=a - 3
+ } 
+}
